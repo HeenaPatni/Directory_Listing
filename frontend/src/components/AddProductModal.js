@@ -34,7 +34,7 @@ function AddProductModal({ showModal, setShowModal,onAddProduct }) {
         showModal ? (
             <div className="modal">
                 <div className="modal-content">
-                    <span className="close" onClick={() => setShowModal(false)}>close</span>
+                    <span className="close" onClick={() => setShowModal(false)}>x</span>
                     <h2>Add Product</h2>
                     <div>
                     <select onChange={(e) => setSelectedProduct(e.target.value)}>
